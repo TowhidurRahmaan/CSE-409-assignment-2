@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    /* Ensures the navbar appears on top of other elements */
+}
+
+.navbar-logo {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-right: 10px;
+}
+
+.navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.navbar-menu .take-action {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* Home section styles */
+.home-section {
+    background-image: url('forest.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+.home-content h5 {
+    color: white;
+    font-style: italic;
+    font: size 20px; ;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(39, 190, 190);
+    color: cyan;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+/* qoute */
+.qoute {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.qoute-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qoute h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.qoute p {
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 0;
+}
+
+.qoute-pera {
+    width: 70%;
+}
+
+/* card */
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #d8d8d8;
+    padding: 20px;
+}
+
+.upper-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.lower-footer {
+    text-align: center;
+}
+
+.lower-footer p {
+    margin: 5px 0;
+}
